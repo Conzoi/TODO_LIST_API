@@ -1,5 +1,3 @@
-
-## 2. Tạo file `Dockerfile`
 FROM node:18
 
 WORKDIR /app
