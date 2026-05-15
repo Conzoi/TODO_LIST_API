@@ -1,5 +1,8 @@
 # To-do List API
-
+git clone https://github.com/Conzoi/TODO_LIST_API.git
+cd TODO_LIST_API
+npm install
+npm start
 ## 1. Giới thiệu
 Project REST API quản lý công việc cá nhân, xây dựng bằng Node.js + Express + MySQL/Sequelize.
 
