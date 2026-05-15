@@ -1,4 +1,5 @@
 # To-do List API
+Link GitHub repo:
 git clone https://github.com/Conzoi/TODO_LIST_API.git
 cd TODO_LIST_API
 npm install
