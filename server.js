@@ -14,26 +14,6 @@ function isFutureDate(dateString) {
 
 function validateTaskInput(req, res, next) {
   const { title, deadline } = req.body;
-app.post("/login", (req, res) => {
-  const { name, password } = req.body;
-
-  if (!name || !password) {
-    return res.status(400).json({
-      error: "Name và password không được rỗng",
-    });
-  }
-
-  if (name === "hieu" && password === "123456") {
-    return res.json({
-      message: "Đăng nhập thành công",
-      user: { name },
-    });
-  }
-
-  res.status(401).json({
-    error: "Sai tài khoản hoặc mật khẩu",
-  });
-});
   if (!title || title.trim() === "") {
     return res.status(400).json({
       error: "Tiêu đề không được rỗng",
